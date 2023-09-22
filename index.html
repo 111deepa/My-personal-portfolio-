@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+      
+    <script src="https://kit.fontawesome.com/cee815208d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- header section -->
+
+<div id="header">
+    <div class="container">
+        <nav> 
+           <img src="c1d44c73ae3832d6a1f60efbeb61e576.jpg" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a  href="#header">Home</a></li>
+                <li><a  href="#about">About Me</a></li>
+                <li><a  href="#skills">Skills</a></li>
+                <li><a  href="#project">Projects</a></li>
+                <li><a  href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="clossmenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front-end Web Developer</p>
+            <h1>Hi! I'm <br> <span>Deepa</span> 
+                Kumari... 
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+ <!-- about section  -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+      <div class="about-col-1">
+       <img src="7_ntt6.jpg" alt="" >
+      </div>
+
+      <div class="about-col-2">
+         <h1 class="sub-title">About Me</h1>
+         <p class="p">I completed my earlier education in hometown and are now pursuing a Bachelor's degree in Computer Science at MUET. My focus is on becoming a front-end developer, where i mastering HTML, CSS, and JavaScript. This trio forms the core of web development, allowing to create visually appealing and interactive websites and applications.
+            I am dedication shines through as my actively engage in real-world projects, gaining hands-on experience in translating my skills into practical solutions. This journey represents my commitment to mastering the art of web development and building a strong foundation for a promising career in the tech industry.</p>
+
+          <div class="about-title">
+            <p class="about-item active-link" onclick="opentab('skills')">Skills</p>
+            <p class="about-item" onclick="opentab('Experience')">Experience</p>
+          </div>
+
+          <div class="about-tab active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>Graphics</span><br>Logo Design</li>
+              <li><span>App Development</span><br>Buiding Android/IOS Apps</li>
+            </ul>
+          </div>
+
+          <div class="about-tab" id="Experience">
+            <ul>
+              <li><span>2022 - 2023</span><br>Web App Development Learmimg at MUET Jamshoro</li>
+              <li><span>2023 - Current</span><br>Logo Design learn ownself</li>
+              <li><span>2023-current</span><br>Android/IOS Apps learning at Muet Jamshoro</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+
+    <!-- skills section -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design </h2>
+                    <p>
+                        
+I possess a robust background in web design, underscored by years of creating captivating and user-focused online experiences. Proficient in HTML, CSS, and JavaScript, I have developed responsive designs that ensure seamless interactions across various devices and screen sizes. My collaborative approach with clients has consistently resulted in designs that align with their unique brand identities and objectives. With a keen eye for user interface and user experience, I prioritize intuitive navigation and visually appealing layouts. My track record includes the successful delivery of web designs that significantly enhance user engagement and drive measurable results
+                     </p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Design</h2>
+                    <p>
+                    Currently of graphic design experience, I have honed my skills in creating visually compelling content for both print and digital platforms. Proficient in Adobe Creative Suite, I've successfully collaborated with diverse clients to deliver impactful branding, marketing materials, and digital assets. My approach emphasizes creative problem-solving, ensuring that each design effectively communicates its intended message while reflecting the unique identity of the client or project
+                    </p>
+                   <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        I bring extensive experience in app design, with a track record of crafting intuitive and visually appealing mobile interfaces. My proficiency in user-centered design principles, prototyping tools like Sketch and Figma, and collaboration with cross-functional teams has led to the creation of user-friendly and engaging apps. I have a keen eye for detail, ensuring that every element of the app aligns with the user's needs and the project's objectives. My portfolio reflects a range of successful app designs that prioritize both aesthetics and usability, ultimately enhancing the overall user experience.
+                    </p>
+                     <a href="#">Learn more</a>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- project section -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>A social media app is a digital platform designed for users to connect, share, and interact online. The app connects you yo the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app is a digital platform that allows users to access, stream, and organize music content. The app connects you yo the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>
+                            An online shopping app is a digital marketplace that provides users with a convenient platform to browse, purchase, and manage a wide range of products and services. The app connects you yo the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>xyz123@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03330000000</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2" id="resume">Download Resume</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <textarea name="message" id="message"  rows="6" placeholder="Your Message"></textarea> 
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ⓓ Deepa. Made with  <i class="fa-solid fa-heart"></i>  by Easy Tutorials</p>
+        </div>
+    </div>
+
+    
+<script>
+    var aboutitems = document.getElementsByClassName("about-item");
+    var abouttabs = document.getElementsByClassName("about-tab");
+
+    function opentab(tabname){
+        {
+        for(aboutitem of aboutitems)
+        aboutitem.classList.remove("active-link")
+    }
+
+   {
+        for(abouttab of abouttabs)
+        abouttab.classList.remove("active-tab")
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = '0';
+    }
+
+    function clossmenu(){
+        sidemenu.style.right = '-200px';
+    }
+</script>
+
+</body>
+</html>
